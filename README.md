@@ -1,10 +1,8 @@
 # 🤖 J.A.R.V.I.S - The Ultimate AI Assistant By Yash Sharma
 
-------
+### 👋 Introduction
 
-👋 Introduction
-
-> Hello! I’m Yash Sharma, an AI enthusiast, innovator, and developer. Over the past three years, I have worked passionately on J.A.R.V.I.S.—an advanced, AI-powered virtual assistant. My vision was to create an intelligent system that automates tasks, interacts seamlessly, and assists users like a real-life AI companion.
+Hello! I’m Yash Sharma, an AI enthusiast, innovator, and developer. Over the past three years, I have worked passionately on J.A.R.V.I.S.—an advanced, AI-powered virtual assistant. My vision was to create an intelligent system that automates tasks, interacts seamlessly, and assists users like a real-life AI companion.
 
 J.A.R.V.I.S. is a testament to my deep interest in AI, automation, and software engineering. This project combines natural language processing (NLP), speech recognition, and machine learning to deliver an intelligent and interactive experience.
 
@@ -120,10 +118,13 @@ Start J.A.R.V.I.S. and speak commands like:
 - 🚀 This project is licensed under the Apache License 2.0.
 
 # 🙏 Acknowledgments
+
+[Clyders](https://github.com/Clyders) (Aditya) - Readme Update
+
 - A special thank you to everyone who supported me throughout this journey!
 This project wouldn’t have been possible without hard work, continuous learning, and an unshakable passion for AI and automation.
 
-> 💡 "The future belongs to those who innovate. J.A.R.V.I.S. is just the beginning!"
+💡 "The future belongs to those who innovate. J.A.R.V.I.S. is just the beginning!"
 
 # 📩 Contributions & Feedback:
 - 🔧 Want to improve J.A.R.V.I.S.? Contributions are welcome!
