@@ -3454,43 +3454,6 @@ while True:
 
 
 
-
-
-# Flight status
-
-#########################################################################################################################################################
-
-        elif "flight status" in command or "flight" in command or "check flight status" in command or "status of flight" in command or "flight information" in command:
-            speak("Please provide the flight number.")
-            flight_number = input("Enter flight number: ")
-            if flight_number:
-                result = check_flight_status(flight_number.strip().upper())
-                speak(result)
-
-        elif "track flight" in command or "track my flight" in command or "flight tracking" in command:
-            speak("Please provide the flight number.")
-            flight_number = input("Enter flight number: ")
-            if flight_number:
-                result = check_flight_status(flight_number.strip().upper())
-                speak(result)
-
-        elif "find flight status" in command or "get flight status" in command or "flight details" in command:
-            speak("Please provide the flight number.")
-            flight_number = input("Enter flight number: ")
-            if flight_number:
-                result = check_flight_status(flight_number.strip().upper())
-                speak(result)
-
-#########################################################################################################################################################
-
-
-
-
-
-
-
-
-
 # Riddle
 
 #########################################################################################################################################################
