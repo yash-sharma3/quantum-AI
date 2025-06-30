@@ -70,7 +70,6 @@ class AIKeysManager:
         self.twilio_token = "Your api key"
         self.email_user = "Your email"
         self.email_pass = "Your pass key"
-        self.aviationstack_api_key = keys.get_aviationstack_api_key()
 
     def get_news_api_key(self):
         return self.news_api_key
@@ -93,8 +92,6 @@ class AIKeysManager:
     def get_email_pass(self):
         return self.email_pass
 
-    def get_aviationstack_api_key(self):
-        return self.aviationstack_api_key
 
 keys = AIKeysManager()
 
@@ -1518,29 +1515,6 @@ while True:
 
 
 
-
-
-
-# FLight 
-
-#########################################################################################################################################################
-#########################################################################################################################################################
-
-
-        def check_flight_status( flight_number):
-            try:
-                api_key = keys.get_aviationstack_api_key() # https://aviationstack.com/signup/free visit here for api key
-                url = f"http://aviation-edge.com/v2/public/flights?key={api_key}&flight_iata={flight_number}"
-                response = requests.get(url).json()
-                status = response[0]['status']
-                departure = response[0]['departure']['airport']
-                arrival = response[0]['arrival']['airport']
-                return f"Flight {flight_number} status: {status}, Departure: {departure}, Arrival: {arrival}"
-            except Exception as e:
-                return f"Error checking flight status: {e}"
-
-#########################################################################################################################################################
-#########################################################################################################################################################
 
 
 
