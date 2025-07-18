@@ -235,7 +235,7 @@ def speak(text):
 
 import MySQLdb
 
-db = MySQLdb.connect("localhost","root","password", "yash_db")
+db = MySQLdb.connect("localhost", keys.get_database_user(), keys.get_database_pass(), keys.get_database_name())
 cursor = db.cursor()
 
 sql= f"""INSERT INTO yash_db.jarvis_access (Accessed_at, Time) VALUES
