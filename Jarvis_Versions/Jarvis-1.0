@@ -70,6 +70,9 @@ class AIKeysManager:
         self.twilio_token = "Your api key"
         self.email_user = "Your email"
         self.email_pass = "Your pass key"
+        self.database_user = "User_name"
+        self.database_pass = "Password"
+        self.database_name = "your_db"
 
     def get_news_api_key(self):
         return self.news_api_key
@@ -91,6 +94,15 @@ class AIKeysManager:
 
     def get_email_pass(self):
         return self.email_pass
+    
+    def get_database_user(self):
+        return self.database_user
+
+    def get_database_pass(self):
+        return self.database_pass
+
+    def get_database_name(self):
+        return self.database_name
 
 
 keys = AIKeysManager()
